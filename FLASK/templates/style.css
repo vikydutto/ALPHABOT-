@@ -1,0 +1,148 @@
+#titolo {
+    align-items: center;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.btnYellow {
+    width: 75px;
+    height: 30px;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border-color: rgb(255, 208, 0);
+    border-radius: .5rem;
+}
+
+.btnRed {
+    width: 75px;
+    height: 30px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(138, 230, 0);
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: transparent;
+    border-color: rgb(138, 230, 0);
+    border-radius: .5rem;
+}
+
+.btnGreen {
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: .5rem;
+}
+
+.btnBlue {
+    font-weight: 600;
+    color: white;
+    background-color: cyan;
+    border-color: cyan;
+    border-radius: .5rem;
+}
+
+@font-face {
+    font-family: Better_Together_Script;
+    src: "C:/Users/paola/Downloads/fonts/Better_Together_Script.ttf";
+}
+
+body {
+    background-color: lightblue;
+    font-family: helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-style: "Hug Me Tight";
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    /* 768: dimensione di un tablet*/
+    #menusx,
+    #central {
+        float: none;
+        /*perde affiancamento div e li mette uno sotto l'altro*/
+        /*display: block;
+        */
+        width: 90%;
+        margin: 5%;
+        /*margin-left: 50px;*/
+    }
+}
+
+#menusx {
+    float: left;
+    /*va a mettere un div di fianco (a sx) ad un altro div*/
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#central {
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+    /*margin-left: 50px;*/
+}
+
+
+/* per i dispositivi più piccoli dei tablet la nav non la metto a sx (non ci sta) la metto in verticale sopra*/
+
+
+/* metto l'# davanti per definire il div (classe chiamandola in modo errato)*/
+
+
+/* qua metterò magari il logo e il titolo*/
+
+#headerTop {
+    background-color: lightskyblue;
+    height: auto;
+    text-align: center;
+    margin: 0%;
+    padding-left: 0px;
+}
+
+#headerDown {
+    box-shadow: 70px, 70px, 70px, green;
+}
+
+
+/* usassi delle classi metterei al posto dell'# il punto*/
+
+#carouselExampleIndicators {
+    width: auto;
+    vertical-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    align-tracks: center;
+}
+
+.carousel-indicators {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    align-tracks: center;
+}
+
+.carousel-item {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    align-tracks: center;
+}
+
+
+/* C:\Users\paola\Documents\SCUOLA\FRANCY\V!!!\TPSIT\FLASK\AB\FLASK*/

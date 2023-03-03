@@ -1,2 +1,5 @@
-# ALPHABOT-
-Repository dedicato al progetto ALPHABOT di Dutto Vittoria e Simondi Francesca.
+# ALPHABOT_PROJECT_W-_DUTTO
+ALPHABOT_PROJECT_W/_DUTTO
+
+MOVIMENTI.db
+server e client _00_ sono files del trimestre

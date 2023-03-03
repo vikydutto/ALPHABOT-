@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- priorità: mobile, sito responsive-->
+        <title>evviva</title>
+        <link href="./templates/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            function dammitempo(){
+                var d = new Date();
+                var ora = d.toLocaleTimeString();
+                return ora;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="titolo" align="center"><h3>Bottoni dei comandi per l'alphabot</h3></div>
+        <form method="POST" action=""> <!-- action: in che pagina ti porta dopo aver pigiato un pulsante-->
+            <button class="btnYellow" type="submit" value="sinistra" name="sx">sinistra</button>
+            <button class="btnGreen" type="submit" value="destra" name="dx">destra</button>
+            <button class="btnBlue" type="submit" value="sopra" name="su">avanti</button>
+            <button class="btnRed" type="submit" value="sotto" name="giu">indietro</button>
+        </form>
+    </body>
+</html>
+
+
+<!-- 
+# C:\Users\paola\Documents\SCUOLA\FRANCY\V!!!\TPSIT\FLASK\AB\FLASK
+-->
